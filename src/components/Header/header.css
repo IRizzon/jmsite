@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #0D2800;
+    box-shadow: 0 2px 5px #0D2800;
+    padding: 2rem;
+    padding-top: 2.5em;
+    z-index: 100;
+}
+
+.navbar.transparent{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo{
+    position: absolute;
+
+}
+
+#logojm{
+    width: auto;
+    height: 80px;
+}
+
+.headerNav{
+    position: absolute;
+    left: 35%;
+    display: flex;
+    width: 50%;
+    gap: 2rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #EEFFE2;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    transition: all 0.5s;
+}
+
+.link:hover{
+    color: #7FBF50;
+}

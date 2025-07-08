@@ -1,0 +1,67 @@
+.section-contact{
+    background-color: #EFFEE2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    flex: 1;
+    padding: 1rem;
+}
+
+text{
+    font-size: 1.2rem;
+    width: 60%;
+    text-align: center;
+    margin: 1em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 1rem;
+}
+
+input, textarea{
+    width: 100%;
+    font-size: 1em;
+    padding: 0.5em;
+    border: #0b2800 solid 2px;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 5px #0b2800;
+    font-family: 'Ubuntu';
+    background-color: #7ebf5020;
+    color: #0b2800;
+}
+
+textarea{
+    resize: none;
+    height: 18vh;
+}
+
+.contactForm{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.btContact{
+    background-color: #0b2800;
+    color: #EFFEE2;
+    padding: 0.5em;
+    font-size: 1.3em;
+    font-family: 'Ubuntu';
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px #0b2800;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 150px;
+}
+
+.btContact:hover{
+    background-color: #7FBF50;
+    color: #0b2800;
+}

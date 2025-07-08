@@ -1,0 +1,62 @@
+Footer{
+    background-color: #EEFFE2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20%;
+    border-top: #0B2800 10px solid;
+    padding: 1rem 2rem;
+}
+
+.logo{
+    position: relative;
+}
+
+#logofjm{
+    width: auto;
+    height: 80px;
+}
+
+.addcontainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 20%;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.address h2,
+.address h3 {
+  margin: 2px;
+  line-height: 1.3;
+}
+
+.social{
+    width: 20%;
+}
+
+.social h2{
+    font-size: 1.1em;
+    line-height: 1.3;
+    width: 100%;
+    margin: 0 0 0 0.5rem;
+}
+
+.social div{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
