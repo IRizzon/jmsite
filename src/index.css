@@ -10,6 +10,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ArchivoBlack';
+  src: url('./assets/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
 html, body {
   height: 100vh;
   font-family: 'Ubuntu', sans-serif;
