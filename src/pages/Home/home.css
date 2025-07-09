@@ -34,7 +34,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #0B2800;
   opacity: 0.3;
   z-index: 2;
 }
@@ -128,7 +128,7 @@
 }
 
 .logojm{
-  height: 80px;
+  height: 70px;
   width: auto;
 }
 
@@ -299,12 +299,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2em;
+  padding: 3em 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.pin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #EEFFE2;
+  padding: 0.3em;
+  border-radius: 50%;
+  border: 1em solid #7FBF50;
+}
+
+.pinLogo{
+  width: auto;
+  height: 90px;
 }
 
 .cardContainer{
   background-color: #7FBF50;
-  width: 100%;
+  width: 85%;
   border-radius: 30px;
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -326,16 +344,137 @@
 }
 
 .textCard h1{
-  font-size: 8em;
+  font-size: 6.5em;
   text-shadow: 2px 3px 8px #EEFFE270;
 }
 
 .textCard h2{
-  font-size: 3em;
+  font-size: 2.3em;
 }
 
 .fleetCard{
   width: 100%;
   object-fit: cover;
   border-radius: 30px;
+}
+
+/* Work Place */
+
+.wpLogo{
+  width: 35%;
+  height: auto;
+  transform: translateX(-100px) translateY(-100px);
+  overflow: clip;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.workPlaceContain{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.textContainer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 15em;
+}
+
+.wpContainer{
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #0B2800;
+  padding: 3em 2em 5em 3em;
+  border-radius: 30px;
+  color: #EEFFE2;
+  gap: 2em;
+}
+
+.wpButton{
+  background-color: #EEFFE2;
+  color: #0B2800;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  gap: 0.3em;
+  padding: 0.3em 0.5em;
+  margin-left: 2.5em;
+}
+
+.wpText{
+  width: 60%;
+  font-size: 1.6em;
+  font-weight:lighter;
+  text-align: left;
+}
+
+.region{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 40%;
+  margin-top: 0.5em;
+  margin-left: 4em;
+  font-size: 1.2em;
+}
+
+.jmMap{
+  margin-top: 1em;
+  margin-left: 50%;
+  position: absolute;
+  width: 45%;
+}
+
+/* Ending */
+
+.ending{
+  background-color: #0B2800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.eCard{
+  background-color: #7FBF50;
+  padding: 1em 3em;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.eText{
+  font-size: 2.8em;
+  color: #0B2800;
+}
+
+.eTalk{
+  font-family: 'Ubuntu';
+  font-size: 2.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  gap: 0.5em;
+  background-color: #0B2800;
+  color: #EEFFE2;
+  border-radius: 30px;
+  border: none;
 }

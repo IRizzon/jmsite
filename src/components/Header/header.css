@@ -8,7 +8,6 @@
     background-color: #0D2800;
     box-shadow: 0 2px 5px #0D2800;
     padding: 2rem;
-    padding-top: 2.5em;
     z-index: 100;
 }
 
@@ -22,12 +21,20 @@
 
 .logo{
     position: absolute;
+}
 
+.logo.transparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEFFE290;
+    padding: 0.1em;
+    border-radius: 50%;
 }
 
 #logojm{
     width: auto;
-    height: 80px;
+    height: 50px;
 }
 
 .headerNav{

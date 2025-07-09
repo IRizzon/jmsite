@@ -16,6 +16,7 @@ import adubo from '../../assets/image/product/adubo.jpeg';
 import truck from '../../assets/image/cards/truck.jpeg';
 import fleet1 from '../../assets/image/cards/frotaD.jpeg';
 import fleet2 from '../../assets/image/cards/frotaE.jpeg';
+import map from '../../assets/image/map.svg';
 
 const slide = [
     {id: '1', image:Suply1}, 
@@ -53,7 +54,8 @@ function Home(){
 
             <div className='comercial'>
                 <div className='comercial-slogan'>
-                    <button className='btTalk'>Fale Conosoco
+                    <button className='btTalk'>
+                        Fale Conosoco
                         <FaCircleArrowRight
                             style={{ color: '#7FBF50', fontSize: '50px'}}
                         />
@@ -134,6 +136,9 @@ function Home(){
 {/*Fleet Cards */}
 
             <section className='cards'>
+                <div className='pin'>
+                    <img src={logo} className='pinLogo'/>
+                </div>
                 <div className='cardContainer'>
                     <div className='textCard'>
                         <h2>Uma frota capaz de atender</h2>
@@ -148,6 +153,50 @@ function Home(){
                     </div>  
                 </div>
             </section>
+
+{/*Work Place */}
+
+            <div className='workPlaceContain'>
+                <img src={logo} className='wpLogo'/>
+                <div className='textContainer'>
+                    <div className='wpContainer'>
+                        <button className='wpButton'>
+                            Onde atuamos
+                            <FaCircleArrowRight
+                                style={{ fontSize: '50px'}}
+                            />
+                        </button>
+                        <text className='wpText'>
+                            De Coromandel - MG para todo o Brasil:
+                            <br/>
+                            Estamos presentes em todo o território nacional.
+                            Faça sua cotação e leve mais resultado para sua produção.
+                        </text>
+                    </div>
+                    <h3 className='region'>
+                        Forte atuação nos estados do Maranhão, Tocantins,
+                        Pará, Mato Grosso, Bahia, Piauí, Minas Gerais e Goiás.
+                    </h3>
+                </div>
+                <img src={map} className='jmMap'/>
+            </div>
+
+{/*Ending */}
+            <div className='ending'>
+                <div className='eCard'>
+                    <h1 className='eText'>
+                        Em que podemos ajudar?
+                        <br/>
+                        Fale com nossa equipe!
+                    </h1>
+                    <button className='eTalk'>
+                        Fale Conosoco
+                        <FaCircleArrowRight
+                            style={{ color: '#7FBF50', fontSize: '50px'}}
+                        />
+                    </button>
+                </div>
+            </div>
         </main>
     )
 }
