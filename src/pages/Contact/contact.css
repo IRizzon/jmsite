@@ -65,3 +65,10 @@ textarea{
     background-color: #7FBF50;
     color: #0b2800;
 }
+
+@media (max-width: 500px) {
+    
+    text, form{
+        width: 90%;
+    }
+}

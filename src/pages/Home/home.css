@@ -39,6 +39,13 @@
   z-index: 2;
 }
 
+@media (max-width: 500px) {
+  .slide-content{
+    height: 40vh;
+  }
+  
+}
+
 /* Comercial Section */
 
 .comercial{
@@ -94,10 +101,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   padding: 2em 1em;
   border-radius: 30px;
-  width: 30vw;
-  margin-right: 10vw;
+  width: 30%;
+  margin-right: 10%;
   transform: translateY(-30%);
   z-index: 10;
   position: relative;
@@ -117,6 +125,45 @@
   font-size: 1.8em;
   font-weight: bold;
   box-shadow: 3px 3px 3px 1px #7ebf5070;
+}
+
+@media  (max-width: 1120px )  {
+
+  .comercial{
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .btTalk{
+    margin-left: 0;
+  }
+
+  .slogan{
+    margin-left: 0;
+  }
+
+  .comercial-service{
+    width: 70%;
+    transform: none;
+    margin-left: 10%;
+  }
+  
+}
+
+@media (max-width: 500px){
+  .comercial-service{
+    width: 90%;
+  }
+
+  .btTalk{
+    margin-left: 10%;
+    font-size: 2em;
+  }
+
+  .slogan{
+    font-size: 2em;
+  }
 }
 
 /* Product Section */
@@ -187,6 +234,30 @@
   text-shadow: 2px 2px 3px #0B2800;
 }
 
+@media  (max-width: 1120px )  {
+
+  .pData{
+    margin-top: 20px;
+  }
+
+  .circle-container{
+    gap: 5rem;
+  }
+
+  .circle{
+    width: 250px;
+    height: 250px;
+  }
+}
+
+  @media (max-width:500px) {
+    
+    .circle-container{
+      gap: 2rem;
+    }
+  }
+
+
 /* Comercial Section 2 */
 
 .comercial2{
@@ -220,17 +291,6 @@
   font-size: 2em;
   padding: 1em 0;
   padding-left: 1em;
-}
-
-.dialogBt{
-  background-color: #EEFFE2;
-  border: none;
-  padding: 0.5em;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  transform: translateX(-40px) translateY(80px);
 }
 
 .sellDesc{
@@ -292,6 +352,55 @@
   border-top-left-radius: 30px;
 }
 
+@media (max-width: 1120px){
+
+  .comercial2{
+    position: relative;
+  }
+
+  .truck{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+
+  .cDesc{
+    padding: 1em;
+    z-index: 100;
+    width: 100%;
+  }
+
+  .sellDesc{
+    flex-direction: column;
+  }
+
+  .sellContainer{
+    margin-left: 2em;
+    align-items: center;
+  }
+
+  .cSlogan{
+    text-shadow: 1px 2px 4px #0B2800;
+  }
+
+  .sellBt{
+    gap: 1em;
+  }
+
+  .machine{
+    display: none;
+  }
+}
+
+@media (max-width: 500px){
+  .dialog{
+    width: 100%;
+    font-size: 1.5em;
+    padding-right: 1em;
+  }
+}
+
 /* Fleet Cards */
 
 .cards{
@@ -312,12 +421,12 @@
   background-color: #EEFFE2;
   padding: 0.3em;
   border-radius: 50%;
-  border: 1em solid #7FBF50;
+  border: 0.5em solid #7FBF50;
 }
 
 .pinLogo{
   width: auto;
-  height: 90px;
+  height: 70px;
 }
 
 .cardContainer{
@@ -328,7 +437,7 @@
   grid-template-columns: 2fr 2fr;
   align-items: center;
   padding: 1em;
-  gap: 1em;
+  gap: 0.5em;
 }
 
 .textCard{
@@ -344,18 +453,38 @@
 }
 
 .textCard h1{
-  font-size: 6.5em;
+  font-size: 5em;
   text-shadow: 2px 3px 8px #EEFFE270;
 }
 
 .textCard h2{
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 .fleetCard{
   width: 100%;
   object-fit: cover;
   border-radius: 30px;
+}
+
+@media (max-width: 1120px) {
+
+  .pin{
+    display: none;
+  }
+
+  .cardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .textCard{
+    font-size: 0.8em;
+    height: 25%;
+    text-align: center;
+    padding: 0.2em;
+  }
 }
 
 /* Work Place */
@@ -439,6 +568,80 @@
   width: 45%;
 }
 
+@media (max-width: 1120px) {
+  .wpLogo{
+    display: none;
+  }
+
+  .workPlaceContain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    height: auto;
+    padding: 1em;
+  }
+
+  .textContainer{
+    position: relative;
+    width: 120%;
+    height: auto;
+  }
+
+  .wpText{
+    width: 70%;
+    height: auto;
+  }
+
+  .region{
+    width: 50%;
+  }
+
+  .jmMap{
+    transform: translateY(-8%);
+  }
+}
+
+@media (max-width: 800px) {
+  
+  .workPlaceContain{
+    padding: 0;
+  }
+
+  .wpContainer{
+    width: 100%;
+    border-radius: 0px;
+  }
+  
+  .region{
+    width: auto;
+    margin: 0;
+    padding: 0 1em 1em 1em;
+  }
+
+  .textContainer{
+    margin: 0;
+    width: 100%;
+  }
+
+  .jmMap{
+    transform: translateX(8%) translateY(-15%);
+  }
+}
+
+@media (max-width:500px) {
+  
+  .jmMap{
+    transform: translateX(25%) translateY(-8%);
+    width: 80%;
+  }
+
+  .wpText{
+    margin-left: -1em;
+  }
+}
+
 /* Ending */
 
 .ending{
@@ -477,4 +680,20 @@
   color: #EEFFE2;
   border-radius: 30px;
   border: none;
+}
+
+@media (max-width: 800px) {
+  
+  .eCard{
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .eText{
+    font-size: 2em;
+  }
+
+  .eTalk{
+    font-size: 2em;
+  }
 }

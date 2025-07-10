@@ -107,11 +107,6 @@ function Home(){
                 <div className='cDesc'>
                     <div className='cContainer'>
                         <h2 className='dialog'>Fale já com nosso atendimento e faça seu orçamento!</h2>
-                        <button className='dialogBt'>
-                            <FaCircleArrowRight
-                                style={{ fontSize: '45px', color: '#0B2800'}}
-                            />
-                        </button>
                     </div>
                     <div className='sellDesc'>
                         <div className='sellContainer'>
@@ -127,7 +122,7 @@ function Home(){
                             <h1 className='mName'>Tratores</h1>
                             <h1 className='mName'>Caminhões</h1>
                             <h1 className='mName'>Pulverizadores</h1>
-                            </div>
+                        </div>
                     </div>
                 </div>
                 <img src={truck} className='truck'/>
@@ -140,17 +135,17 @@ function Home(){
                     <img src={logo} className='pinLogo'/>
                 </div>
                 <div className='cardContainer'>
+                    <img src={fleet2} className='fleetCard'/>
                     <div className='textCard'>
                         <h2>Uma frota capaz de atender</h2>
                         <h1>+30.000</h1>
                         <h2>Hectares de calcário por mês</h2>
                     </div>
-                    <img src={fleet2} className='fleetCard'/>
-                    <img src={fleet1} className='fleetCard'/>
                     <div className='textCard'>
                         <h1>+2 Milhões</h1>
                         <h2>de Hectares atendido</h2>
                     </div>  
+                    <img src={fleet1} className='fleetCard'/>
                 </div>
             </section>
 
