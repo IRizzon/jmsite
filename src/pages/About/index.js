@@ -2,6 +2,7 @@ import './about.css';
 
 import truckTitle from '../../assets/image/history/truckTitle.jfif';
 
+
 function About(){
     return(
         <div className='about'>

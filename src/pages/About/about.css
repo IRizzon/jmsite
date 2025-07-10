@@ -12,6 +12,7 @@
 }
 
 .bgTitle{
+    object-fit: cover;
     width: 100% !important;
     height: 70vh;
     box-shadow: 0 2px 20px 10px #0B280080;
@@ -40,6 +41,7 @@
     z-index: 3;
     color: #0B2800;
     font-family: 'ArchivoBlack';
+    text-shadow: 1px 2px 4px #EEFFE260;
 }
 
 .aTitle h1{
@@ -51,3 +53,33 @@
     margin-top: -0.8em;
     font-size: 2.4em;
 }
+
+@media (max-width: 800px) {
+    
+    .bgTitle{   
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .cardTitle{
+        margin-top: -300px;
+    }
+
+    .aTitle{
+        margin-top: 15vh;
+        padding-right: 0.5em;
+    }
+
+    .aTitle h1{
+        font-size: 2em;
+        letter-spacing: -2px;
+    }
+
+    .aTitle h2{
+        font-size: 0.7em;
+    }
+
+}
+
+/* ------------------ History -------------------*/
+
