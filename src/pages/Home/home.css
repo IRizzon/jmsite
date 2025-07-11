@@ -65,7 +65,7 @@
   align-items: center;
   padding: 1rem 1.5rem;
   gap: 0.5em;
-  margin-left: 10vw;
+  margin-left: 25%;
   transform: translateY(-50%);
   z-index: 10;
   position: relative;
@@ -97,7 +97,7 @@
 .comercial-service{
   background-color: #0B2800;
   color: #EEFFE2;
-  font-size: 18px;
+  font-size: 1.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,10 +119,10 @@
   padding: 0.8em;
   border-radius: 20px;
   border: none;
-  width: 80%;
+  width: 90%;
   color: #0B2800;
   font-family: 'Ubuntu';
-  font-size: 1.8em;
+  font-size: 1.2em;
   font-weight: bold;
   box-shadow: 3px 3px 3px 1px #7ebf5070;
 }
@@ -140,6 +140,7 @@
   }
 
   .slogan{
+    margin-top: -1em;
     margin-left: 0;
   }
 
@@ -153,16 +154,25 @@
 
 @media (max-width: 500px){
   .comercial-service{
+    width: 100%;
+    font-size: 1.2em;
+    padding: 1em;
+    border-radius: 40px;
+  }
+
+  .btService{
     width: 90%;
   }
 
   .btTalk{
-    margin-left: 10%;
-    font-size: 2em;
+    padding: 0.4em;
+    margin-left: 5%;
+    font-size: 1.5em;
+    border-radius: 20px;
   }
 
   .slogan{
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -251,9 +261,22 @@
 }
 
   @media (max-width:500px) {
+
+    .logojm{
+      height: 50px;
+    }
+
+
+    .pTitle{
+      font-size: 1em;
+    }
     
     .circle-container{
       gap: 2rem;
+    }
+
+    .pDesc{
+      font-size: 1.6em;
     }
   }
 
@@ -369,6 +392,7 @@
     padding: 1em;
     z-index: 100;
     width: 100%;
+    gap: 3.5em;
   }
 
   .sellDesc{
@@ -378,6 +402,7 @@
   .sellContainer{
     margin-left: 2em;
     align-items: center;
+    gap: 2em;
   }
 
   .cSlogan{
@@ -395,9 +420,25 @@
 
 @media (max-width: 500px){
   .dialog{
-    width: 100%;
-    font-size: 1.5em;
-    padding-right: 1em;
+    width: auto;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0.8em;
+  }
+
+  .sellContainer{
+    margin-left: 0;
+  }
+
+  .cSlogan{
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .sellBt{
+    font-size: 1.8em;
+    padding: 0.3em;
+    padding-left: 0.5em;
   }
 }
 
@@ -484,6 +525,19 @@
     height: 25%;
     text-align: center;
     padding: 0.2em;
+  }
+}
+
+@media (max-width:500px) {
+
+  .fleetCard{
+    height: 150px;
+  }
+  
+  .textCard{
+    font-size: 0.6em;
+    height: 120px;
+    letter-spacing: 1px;
   }
 }
 
@@ -612,6 +666,7 @@
   .wpContainer{
     width: 100%;
     border-radius: 0px;
+    padding: 1.5em;
   }
   
   .region{
@@ -638,7 +693,19 @@
   }
 
   .wpText{
-    margin-left: -1em;
+    font-size: 1.5em;
+    margin-left: -0.5em;
+  }
+
+  .region{
+    padding: 0.2em;
+    font-size: 1em;
+    border: solid 0.2em #0B2800;
+    border-radius: 10px;
+    margin: 0.2em;
+  }
+  .wpButton{
+    margin-left: 0;
   }
 }
 
@@ -685,15 +752,21 @@
 @media (max-width: 800px) {
   
   .eCard{
+    width: 100%;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
   }
 
   .eText{
-    font-size: 2em;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
   }
 
   .eTalk{
-    font-size: 2em;
+    width: 90%;
+    font-size: 1.5em;
+    padding: 0.5em 0em;
+    gap: 0.3em;
   }
 }

@@ -158,7 +158,7 @@ function Home(){
                         <button className='wpButton'>
                             Onde atuamos
                             <FaCircleArrowRight
-                                style={{ fontSize: '50px'}}
+                                style={{ fontSize: '40px'}}
                             />
                         </button>
                         <text className='wpText'>

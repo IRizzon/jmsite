@@ -62,24 +62,212 @@
     }
 
     .cardTitle{
-        margin-top: -300px;
+        margin-top: -170px;
     }
 
     .aTitle{
-        margin-top: 15vh;
+        margin-top: 12vh;
         padding-right: 0.5em;
     }
 
     .aTitle h1{
-        font-size: 2em;
+        font-size: 2.4em;
         letter-spacing: -2px;
+    }
+
+    .aTitle h2{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width:500px) {
+
+    .bgTitle{
+        height: 20vh;
+    }
+
+    .cardTitle{
+        margin-top: -300px;
+    }
+    
+    .aTitle{
+        margin-top: 7vh;
+    }
+
+    .aTitle h1{
+        font-size: 2em;
     }
 
     .aTitle h2{
         font-size: 0.7em;
     }
-
 }
 
 /* ------------------ History -------------------*/
 
+.history{
+    margin: auto;
+    width: 90vw;
+    border-left: 0.2em solid #0B2800;
+    border-right: 0.2em solid #0B2800;
+    box-shadow: 0px 0px 50px 5px #0B2800;
+    padding: 0;
+    color: #0B2800;
+    overflow: hidden;
+}
+
+.hContainer{
+    display: flex;
+    position: relative;
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 1em;
+    margin-top: -4em;
+    padding: 0;
+    width: 100%;
+}
+
+.hContainer p{
+    margin-top: 5px;
+}
+
+.hContainer:first-child{
+    margin-top: 0;
+}
+
+.iStart{
+    margin-left: 3.5em;
+}
+
+.tStart{
+    position: absolute;
+    width: 50%;
+    top: 8em;
+    right: 8em;
+}
+
+.iExpand{
+    margin-top: -1em;
+    margin-left: 19.5em;
+}
+
+.tExpand{
+    position: absolute;
+    width: 40%;
+    top: 10em;
+    left: 6em;
+}
+
+.iActualy{
+    width: 70%;
+    margin-left: 4em;
+}
+
+.tActualy{
+    position: absolute;
+    width: 40%;
+    right: 8em;
+    top: 7em;
+}
+
+.lastText{
+    font-size: 1.3em;
+    padding-left: 5em;
+    padding-right: 8em;
+    text-align: justify;
+    padding-bottom: 1em;
+}
+
+/* ---------------------- V.V.M. --------------------- */
+
+.VVMContainer{
+    display: flex;
+    justify-content: center;
+    padding-left: 6em;
+    padding-right: 8em;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+.VVMCard{
+    display: flex;
+    position: relative;
+}
+
+.VVMImg{
+    height: 60vh;
+}
+
+.VVMText{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: #EEFFE2;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%;
+    padding: 1em;
+}
+
+.VVMText h1{
+    font-size: 2em;
+}
+
+.VVMText h2{
+    font-size: 1.3em;
+}
+
+/* -------------- Ending ------------- */
+
+.hEnding{
+    display: flex;
+    justify-content: space-between;
+}
+
+.world{
+    height: 100vh;
+    margin-left: -8em;
+    transform: translateY(5em);
+}
+
+.placeContainer{
+    display: flex;
+    position: relative;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bglogo{
+    opacity: 0.6;
+    width: 90vh;
+    transform: translateY(15em) translateX(10em);
+}
+
+.placeText{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    color: #0B2800;
+}
+
+.placeText h1{
+    font-size: 3em;
+}
+
+.placeText text{
+    font-size: 1.5em;
+    width: 90%;
+    text-align: justify;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    width: 80%;
+    font-size: 1.8em;
+    font-weight: bold;
+}
