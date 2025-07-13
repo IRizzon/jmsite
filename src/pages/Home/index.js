@@ -3,6 +3,7 @@ import './home.css';
 //Library Import
 import { Swiper, SwiperSlide} from 'swiper/react';
 import { FaCircleArrowRight } from 'react-icons/fa6';
+import { useNavigate } from 'react-router-dom';
 
 //Image Import
 import Night from '../../assets/image/slide/night.svg';
@@ -26,6 +27,11 @@ const slide = [
 ]
 
 function Home(){
+
+    const navigate = useNavigate();
+
+    const toForm = () => { navigate('/contato') }
+    const toLocal = () => { navigate('/sobrenos#hEnding') }
 
     return(
         <main>
@@ -54,7 +60,7 @@ function Home(){
 
             <div className='comercial'>
                 <div className='comercial-slogan'>
-                    <button className='btTalk'>
+                    <button className='btTalk' onClick={toForm}>
                         Fale Conosoco
                         <FaCircleArrowRight
                             style={{ color: '#7FBF50', fontSize: '50px'}}
@@ -111,7 +117,7 @@ function Home(){
                     <div className='sellDesc'>
                         <div className='sellContainer'>
                             <h1 className='cSlogan'>Precisão em cada Hectare.</h1>
-                            <button className='sellBt'>
+                            <button className='sellBt' onClick={toForm}>
                                 Comece Agora
                                 <FaCircleArrowRight
                                     style={{ fontSize: '60px' }}
@@ -155,7 +161,7 @@ function Home(){
                 <img src={logo} className='wpLogo'/>
                 <div className='textContainer'>
                     <div className='wpContainer'>
-                        <button className='wpButton'>
+                        <button className='wpButton' onClick={toLocal}>
                             Onde atuamos
                             <FaCircleArrowRight
                                 style={{ fontSize: '40px'}}
@@ -184,7 +190,7 @@ function Home(){
                         <br/>
                         Fale com nossa equipe!
                     </h1>
-                    <button className='eTalk'>
+                    <button className='eTalk' onClick={toForm}>
                         Fale Conosoco
                         <FaCircleArrowRight
                             style={{ color: '#7FBF50', fontSize: '50px'}}

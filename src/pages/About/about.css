@@ -57,37 +57,32 @@
 @media (max-width: 800px) {
     
     .bgTitle{   
-        height: 30vh;
-        object-fit: cover;
+        height: 50vh !important;
     }
 
     .cardTitle{
-        margin-top: -170px;
+        margin-top:-70px;
     }
 
     .aTitle{
-        margin-top: 12vh;
+        margin-top: 20vh;
         padding-right: 0.5em;
     }
 
     .aTitle h1{
-        font-size: 2.4em;
+        font-size: 3em;
         letter-spacing: -2px;
     }
 
     .aTitle h2{
-        font-size: 0.8em;
+        font-size: 1em;
     }
 }
 
 @media (max-width:500px) {
 
     .bgTitle{
-        height: 20vh;
-    }
-
-    .cardTitle{
-        margin-top: -300px;
+        height: 20vh !important;
     }
     
     .aTitle{
@@ -178,6 +173,182 @@
     padding-bottom: 1em;
 }
 
+@media (max-width:1400px) {
+    .tStart{
+        right: 5em;
+    }
+
+    .tActualy{
+        top: 5.5em;
+    }
+}
+
+@media (max-width:1300px) {
+    .hContainer{
+        font-size: 1.1em;
+    }
+
+    .hContainer img{
+        width: 60%;
+    }
+
+    .iActualy{
+        margin-left: 6em;
+    }
+
+    .lastText{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width:1200px) {
+    .hContainer{
+        margin-top: -1em;
+        font-size: 1em;
+    }
+
+    .hContainer p{
+        margin-top: 0;
+    }
+
+    .tStart{
+        top: 7em;
+        right: 7em;
+    }
+
+    .tExpand{
+        top: 9em;
+    }
+
+    .iExpand{
+        margin-left: 18em;
+    }
+
+    .tActualy{
+        top: 5em;
+        right: 9em;
+    }
+
+    .lastText{
+        margin-top: 0.5em;
+        font-size: 1em;
+        padding-left: 6em;
+    }
+}
+
+@media (max-width:1000px) {
+    .hContainer{
+        margin-top: 1em;
+    }
+
+    .hContainer img{
+        width: 70%;
+    }
+
+    .iStart{
+        margin-left: 0;
+    }
+
+    .tStart{
+        right: 6em;
+    }
+
+    .iExpand{
+        margin-left: 12em;
+    }
+
+    .tExpand{
+        left: 3em;
+    }
+
+    .iActualy{
+        margin-left: 2em;
+    }
+
+    .tActualy{
+        width: 47%;
+        right: 5em;
+    }
+
+    .lastText{
+        padding-left: 3em;
+        padding-right: 5em;
+    }
+}
+
+@media (max-width:900px) {
+    .iExpand{
+        margin-top: 2em;
+    }
+
+    .tExpand{
+        top: 11em;
+        left: 4em;
+    }
+
+    .lastText{
+        margin-top: 2.5em;
+    }
+}
+
+@media (max-width:780px) {
+    .hContainer{
+        font-size: 0.8em;
+    }
+
+    .hContainer{
+        margin-top: -1em;
+    }
+
+    .iExpand{
+        margin-top: 0;
+    }
+
+    .lastText{
+        font-size: 0.8em;
+        margin-top: 0;
+    }
+}
+
+@media (max-width:500px) {
+    .hContainer{
+        font-size: 0.5em;
+    }
+
+    .hContainer img{
+        width: 80%;
+    }
+
+    .tStart{
+        right: 3em;
+    }
+
+    .tExpand{
+        top: 9.5em;
+        left: 2em;
+    }
+
+    .iExpand{
+        margin-left: 7em;
+    }
+
+    .iActualy{
+        margin-left: 0;
+    }
+
+    .tActualy{
+        right: 3em;
+    }
+
+    .lastText{
+        font-size: 0.5em;
+        margin-top: 0.5em;
+        padding-left: 2em;
+        padding-right: 3em;
+    }
+
+}
+
 /* ---------------------- V.V.M. --------------------- */
 
 .VVMContainer{
@@ -195,7 +366,7 @@
 }
 
 .VVMImg{
-    height: 60vh;
+    width: 20vw;
 }
 
 .VVMText{
@@ -216,6 +387,35 @@
 
 .VVMText h2{
     font-size: 1.3em;
+}
+
+@media (max-width:1200px) {
+    .VVMText h1{
+        font-size: 1.6em;
+    }
+
+    .VVMText h2{
+        font-size: 1em;
+    }
+}
+
+@media (max-width:500px){
+    .VVMContainer{
+        margin-top: 1em;
+        padding: 0;
+    }
+
+    .VVMText{
+        padding: 0.5em 0;
+    }
+
+    .VVMText h1{
+        font-size: 1em;
+    }
+
+    .VVMText h2{
+        font-size: 0.5em;
+    }
 }
 
 /* -------------- Ending ------------- */
@@ -241,7 +441,7 @@
 
 .bglogo{
     opacity: 0.6;
-    width: 90vh;
+    width: 70vw;
     transform: translateY(15em) translateX(10em);
 }
 
@@ -270,4 +470,69 @@
     width: 80%;
     font-size: 1.8em;
     font-weight: bold;
+}
+
+@media (max-width:1400px) {
+    .hEnding{
+        margin: 3em 0;
+        justify-content: center;
+    }
+
+    .world{
+        display: none;
+    }
+
+    .bglogo{
+        transform: none;
+    }
+
+    .placeContainer{
+        width: 100%;
+    }
+
+    .list{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:1000px) {
+    .bglogo{
+        width: 50vw;
+    }
+
+    .placeText h1{
+        font-size: 2.5em;
+    }
+
+    .placeText text{
+        font-size: 1.3em;
+        width: 80%;
+    }
+
+    .list{
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width:500px) {
+    .hEnding{
+        margin: 1.5em 0;
+    }
+
+    .placeText{
+        gap: 1em;
+    }
+
+    .placeText h1{
+        font-size: 1.5em;
+    }
+
+    .placeText text{
+        font-size: 0.7em;
+    }
+
+    .list{
+        font-size: 1em;
+    }
 }

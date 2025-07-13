@@ -1,5 +1,8 @@
 import './about.css';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
 import truckTitle from '../../assets/image/history/truckTitle.jpg';
 import tStart from '../../assets/image/history/start.svg';
 import tExpand from '../../assets/image/history/expand.svg';
@@ -13,6 +16,29 @@ import bglogo from '../../assets/image/logo.svg';
 
 
 function About(){
+
+    const location = useLocation();
+
+    useEffect(() => {
+        const scrollToHash = () => {
+        if (location.hash) {
+            const target = document.querySelector(location.hash);
+            if (target) {
+            setTimeout(() => {
+                target.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
+            }
+        }
+        };
+
+        if (document.readyState === 'complete') {
+        scrollToHash();
+        } else {
+        window.addEventListener('load', scrollToHash);
+        return () => window.removeEventListener('load', scrollToHash);
+        }
+    }, [location]);
+
     return(
         <div className='about'>
             <div className='cardTitle'>
@@ -95,7 +121,7 @@ function About(){
                         </div>
                     </div>
                 </div>
-                <div className='hEnding'>
+                <div className='hEnding' id='hEnding'>
                     <img src={world} className='world'/>
                     <div className='placeContainer'>
                         <img src={bglogo} className='bglogo'/>

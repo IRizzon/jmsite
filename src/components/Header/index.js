@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import './header.css';
 import logo from '../../assets/image/logo.svg';
@@ -13,6 +13,10 @@ function Header(){
 
     const location = useLocation();
     const isTransparent = location.pathname === '/' || location.pathname === '/sobrenos'
+
+    useEffect(() => {
+        setMenuOpen(false);
+    }, [location.pathname]);
 
     return(
         <header className={isTransparent ? 'navbar transparent' : 'navbar'}>

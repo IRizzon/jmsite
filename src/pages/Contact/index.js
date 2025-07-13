@@ -10,7 +10,7 @@ function Contact() {
                 Estamos aqui para oferecer o melhor atendimento possível.
                 A equipe da JM agradece o seu contato!
             </text>
-            <form>
+            <form action="https://formsubmit.co/jmprecisao@hotmail.com" method='POST'>
                 <input
                     type="text"
                     name="nome"

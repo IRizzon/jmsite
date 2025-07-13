@@ -1,5 +1,9 @@
 /*Swiper*/
 
+button{
+  cursor: pointer;
+}
+
 .swiper {
   width: 100vw !important;
   margin: 0 !important;
