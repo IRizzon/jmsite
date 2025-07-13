@@ -88,20 +88,20 @@ function Home(){
 
             <div className='pData'>
                 <div className='pTitle'>
-                    <img src={logo} className='logojm'/>
+                    <img src={logo} className='logojm' alt='JMPrecisão'/>
                     <h1>Alta Produtividade</h1>
                 </div>
                 <div className='circle-container'>
                     <div className='circle'>
-                        <img src={dist} className='imgCircle'/>
+                        <img src={dist} className='imgCircle' alt='CorreçãoSolo'/>
                         <h1 className='pDesc'>+1.500 Hectares por dia na distribuição de Calcário</h1>
                     </div>
                     <div className='circle'>
-                        <img src={adubo} className='imgCircle'/>
+                        <img src={adubo} className='imgCircle' alt='Adubação'/>
                         <h1 className='pDesc'>+10.00 Hectares por dia em Adubação</h1>
                     </div>
                     <div className='circle'>
-                        <img src={pulv} className='imgCircle'/>
+                        <img src={pulv} className='imgCircle' alt='Pulverização'/>
                         <h1 className='pDesc'>+1.000 Hectares por dia em Pulverização</h1>
                     </div>
                 </div>
@@ -131,17 +131,17 @@ function Home(){
                         </div>
                     </div>
                 </div>
-                <img src={truck} className='truck'/>
+                <img src={truck} className='truck' alt='Caminhão'/>
             </div>
 
 {/*Fleet Cards */}
 
             <section className='cards'>
                 <div className='pin'>
-                    <img src={logo} className='pinLogo'/>
+                    <img src={logo} className='pinLogo' alt='JMPrecisão'/>
                 </div>
                 <div className='cardContainer'>
-                    <img src={fleet2} className='fleetCard'/>
+                    <img src={fleet2} className='fleetCard' alt='FrotaTrator'/>
                     <div className='textCard'>
                         <h2>Uma frota capaz de atender</h2>
                         <h1>+30.000</h1>
@@ -151,14 +151,14 @@ function Home(){
                         <h1>+2 Milhões</h1>
                         <h2>de Hectares atendido</h2>
                     </div>  
-                    <img src={fleet1} className='fleetCard'/>
+                    <img src={fleet1} className='fleetCard' alt='FrotaCaminhão'/>
                 </div>
             </section>
 
 {/*Work Place */}
 
             <div className='workPlaceContain'>
-                <img src={logo} className='wpLogo'/>
+                <img src={logo} className='wpLogo' alt='JMPrecisão'/>
                 <div className='textContainer'>
                     <div className='wpContainer'>
                         <button className='wpButton' onClick={toLocal}>
@@ -179,7 +179,7 @@ function Home(){
                         Pará, Mato Grosso, Bahia, Piauí, Minas Gerais e Goiás.
                     </h3>
                 </div>
-                <img src={map} className='jmMap'/>
+                <img src={map} className='jmMap' alt='Brasil'/>
             </div>
 
 {/*Ending */}

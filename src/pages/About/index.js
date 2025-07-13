@@ -42,7 +42,7 @@ function About(){
     return(
         <div className='about'>
             <div className='cardTitle'>
-                <img src={truckTitle} className='bgTitle'/>
+                <img src={truckTitle} className='bgTitle' alt='Truck'/>
                 <div className='bgOverlay'/>
                 <div className='aTitle'>
                     <h1>JM Precisão</h1>
@@ -51,7 +51,7 @@ function About(){
             </div>
             <section className='history'>
                 <div className='hContainer'>
-                    <img src={tStart} className='iStart'/>
+                    <img src={tStart} className='iStart' alt='Truck'/>
                     <div className='tStart'>
                         <p>
                             A JM Precisão nasceu do sonho de Juliano Marques, ainda como produtor rural, de adquirir máquinas mais 
@@ -82,10 +82,10 @@ function About(){
                             brasileiro.
                         </p>
                     </div>
-                    <img src={tExpand} className='iExpand'/>
+                    <img src={tExpand} className='iExpand' alt='Caminhão'/>
                 </div>
                 <div className='hContainer'>
-                    <img src={tActualy} className='iActualy'/>
+                    <img src={tActualy} className='iActualy' alt='Trator'/>
                     <div className='tActualy'>
                         Atualmente, a JM Precisão vive um momento de consolidação e expansão. Nossa frota cresceu significativamente nos 
                         últimos anos, tornando-se ainda mais robusta, moderna e preparada para atender grandes áreas com agilidade e precisão. 
@@ -100,21 +100,21 @@ function About(){
                 </div>
                 <div className='VVMContainer'>
                     <div className='VVMCard'>
-                        <img src={jm1} className='VVMImg'/>
+                        <img src={jm1} className='VVMImg' alt='JMCar'/>
                         <div className='VVMText'>
                             <h1>Missão</h1>
                             <h2>Promover constantemente a melhoria na qualidade e no rendimento da produção agrícola.</h2>
                         </div>
                     </div>
                     <div className='VVMCard'>
-                        <img src={jm2} className='VVMImg'/>
+                        <img src={jm2} className='VVMImg' alt='JMCar'/>
                         <div className='VVMText'>
                             <h1>Visão</h1>
                             <h2>Ser reconhecida pela qualidade, confiança e agilidade, com simplicidade e respeito em tudo o que faz no campo.</h2>
                         </div>
                     </div>
                     <div className='VVMCard'>
-                        <img src={jm3} className='VVMImg'/>
+                        <img src={jm3} className='VVMImg' alt='JMCar'/>
                         <div className='VVMText'>
                             <h1>Valores</h1>
                             <h2>Ética, honestidade, agilidade, produtividade, qualidade, respeito e excelência.</h2>
@@ -122,9 +122,9 @@ function About(){
                     </div>
                 </div>
                 <div className='hEnding' id='hEnding'>
-                    <img src={world} className='world'/>
+                    <img src={world} className='world' alt='Brasil'/>
                     <div className='placeContainer'>
-                        <img src={bglogo} className='bglogo'/>
+                        <img src={bglogo} className='bglogo'alt='JMPrecisão'/>
                         <div className='placeText'>
                             <h1>Atendendo em todo o Brasil</h1>
                             <text>
