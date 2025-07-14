@@ -43,6 +43,7 @@ function Home(){
                     delay: 3000,
                     disableOnInteraction: false,
                 }}
+                speed={900}
                 style={{ width: '100%', margin:'0', padding:'0'}}
             >
                 {slide.map ( (item) =>(
