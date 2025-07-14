@@ -78,9 +78,9 @@ function Home(){
                 <div className='comercial-service'>
                     <h1>Referência</h1>
                     <h2>em Agricultura de Precisão</h2>
-                    <button className='btService'>Correção de Solo</button>
-                    <button className='btService'>Adubação</button>
-                    <button className='btService'>Pulverização</button>
+                    <div className='btService'>Correção de Solo</div>
+                    <div className='btService'>Adubação</div>
+                    <div className='btService'>Pulverização</div>
                 </div>
             </div>
 

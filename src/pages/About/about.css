@@ -98,6 +98,16 @@
     }
 }
 
+@media (max-width:400px) {
+
+    .aTitle h1{
+        font-size: 1.8em;
+    }
+
+    .aTitle h2{
+        font-size: 0.6em;
+    }
+}
 /* ------------------ History -------------------*/
 
 .history{
@@ -346,7 +356,29 @@
         padding-left: 2em;
         padding-right: 3em;
     }
+}
 
+@media (max-width:430px) {
+
+    .hContainer{
+        font-size: 0.4em;
+    }
+
+    .tStart{
+        top: 7.5em;
+    }
+
+    .tExpand{
+        top: 10em;
+    }
+
+    .tActualy{
+        top: 5.5em;
+    }
+
+    .lastText{
+        font-size: 0.4em;
+    }
 }
 
 /* ---------------------- V.V.M. --------------------- */
@@ -418,6 +450,15 @@
     }
 }
 
+@media (max-width:450px) {
+    .VVMText h1{
+        font-size: 0.8em;
+    }
+
+    .VVMText h2{
+        font-size: 0.3em;
+    }
+}
 /* -------------- Ending ------------- */
 
 .hEnding{
@@ -493,6 +534,7 @@
     .list{
         width: 100%;
         text-align: center;
+        list-style: none;
     }
 }
 
@@ -534,5 +576,23 @@
 
     .list{
         font-size: 1em;
+    }
+}
+
+@media (max-width:450px) {
+    .hEnding{
+        margin-top: 2em;
+    }
+
+    .placeText h1{
+        font-size: 1.3em;
+    }
+
+    .placeText text{
+        font-size: 0.5em;
+    }
+
+    .list{
+        font-size: 0.8em;
     }
 }
