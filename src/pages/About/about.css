@@ -45,13 +45,13 @@
 }
 
 .aTitle h1{
-    font-size: 7em;
+    font-size: 7rem;
     letter-spacing: -5px;
 }
 
 .aTitle h2{
     margin-top: -0.8em;
-    font-size: 2.4em;
+    font-size: 2.4rem;
 }
 
 @media (max-width: 800px) {
@@ -70,12 +70,12 @@
     }
 
     .aTitle h1{
-        font-size: 3em;
+        font-size: 3rem;
         letter-spacing: -2px;
     }
 
     .aTitle h2{
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -90,22 +90,22 @@
     }
 
     .aTitle h1{
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     .aTitle h2{
-        font-size: 0.7em;
+        font-size: 0.7rem;
     }
 }
 
 @media (max-width:400px) {
 
     .aTitle h1{
-        font-size: 1.8em;
+        font-size: 1.8rem;
     }
 
     .aTitle h2{
-        font-size: 0.6em;
+        font-size: 0.6rem;
     }
 }
 /* ------------------ History -------------------*/
@@ -124,7 +124,7 @@
 .hContainer{
     display: flex;
     position: relative;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     text-align: justify;
     text-indent: 1em;
     margin-top: -4em;
@@ -176,7 +176,7 @@
 }
 
 .lastText{
-    font-size: 1.3em;
+    font-size: 1.3rem;
     padding-left: 5em;
     padding-right: 8em;
     text-align: justify;
@@ -195,7 +195,7 @@
 
 @media (max-width:1300px) {
     .hContainer{
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
 
     .hContainer img{
@@ -207,14 +207,14 @@
     }
 
     .lastText{
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
 }
 
 @media (max-width:1200px) {
     .hContainer{
         margin-top: -1em;
-        font-size: 1em;
+        font-size: 1rem;
     }
 
     .hContainer p{
@@ -241,7 +241,7 @@
 
     .lastText{
         margin-top: 0.5em;
-        font-size: 1em;
+        font-size: 1rem;
         padding-left: 6em;
     }
 }
@@ -303,7 +303,7 @@
 
 @media (max-width:780px) {
     .hContainer{
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 
     .hContainer{
@@ -315,14 +315,14 @@
     }
 
     .lastText{
-        font-size: 0.8em;
+        font-size: 0.8rem;
         margin-top: 0;
     }
 }
 
 @media (max-width:500px) {
     .hContainer{
-        font-size: 0.5em;
+        font-size: 0.5rem;
     }
 
     .hContainer img{
@@ -351,17 +351,17 @@
     }
 
     .lastText{
-        font-size: 0.5em;
+        font-size: 0.5rem;
         margin-top: 0.5em;
         padding-left: 2em;
         padding-right: 3em;
     }
 }
 
-@media (max-width:430px) {
+@media (max-width:400px) {
 
     .hContainer{
-        font-size: 0.4em;
+        font-size: 0.4rem;
     }
 
     .tStart{
@@ -377,7 +377,7 @@
     }
 
     .lastText{
-        font-size: 0.4em;
+        font-size: 0.4rem;
     }
 }
 
@@ -414,20 +414,20 @@
 }
 
 .VVMText h1{
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .VVMText h2{
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 @media (max-width:1200px) {
     .VVMText h1{
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
 
     .VVMText h2{
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -442,21 +442,21 @@
     }
 
     .VVMText h1{
-        font-size: 1em;
+        font-size: 1rem;
     }
 
     .VVMText h2{
-        font-size: 0.5em;
+        font-size: 0.5rem;
     }
 }
 
 @media (max-width:450px) {
     .VVMText h1{
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 
     .VVMText h2{
-        font-size: 0.3em;
+        font-size: 0.3rem;
     }
 }
 /* -------------- Ending ------------- */
@@ -496,11 +496,11 @@
 }
 
 .placeText h1{
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .placeText text{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     width: 90%;
     text-align: justify;
 }
@@ -509,7 +509,7 @@
     display: grid;
     grid-template-columns: 4fr 4fr;
     width: 80%;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -544,16 +544,16 @@
     }
 
     .placeText h1{
-        font-size: 2.5em;
+        font-size: 2.5rem;
     }
 
     .placeText text{
-        font-size: 1.3em;
+        font-size: 1.3rem;
         width: 80%;
     }
 
     .list{
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
 }
 
@@ -567,15 +567,15 @@
     }
 
     .placeText h1{
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 
     .placeText text{
-        font-size: 0.7em;
+        font-size: 0.7rem;
     }
 
     .list{
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -585,14 +585,14 @@
     }
 
     .placeText h1{
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
 
     .placeText text{
-        font-size: 0.5em;
+        font-size: 0.5rem;
     }
 
     .list{
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 }
