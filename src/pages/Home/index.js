@@ -39,6 +39,10 @@ function Home(){
                 slidesPerView={1}
                 pagination={{ clickable: true }}
                 navigation
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
                 style={{ width: '100%', margin:'0', padding:'0'}}
             >
                 {slide.map ( (item) =>(
