@@ -370,6 +370,9 @@
         top: 7.5em;
     }
 
+    .iExpand{
+        margin-top: 0;
+    }
 
     .tExpand{
         top: 11em;
