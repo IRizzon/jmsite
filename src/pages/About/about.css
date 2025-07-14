@@ -288,16 +288,16 @@
 
 @media (max-width:900px) {
     .iExpand{
-        margin-top: 2rem;
+        margin-top: 2em;
     }
 
     .tExpand{
-        top: 11rem;
-        left: 4rem;
+        top: 11em;
+        left: 4em;
     }
 
     .lastText{
-        margin-top: 2.5rem;
+        margin-top: 2.5em;
     }
 }
 
@@ -307,7 +307,7 @@
     }
 
     .hContainer{
-        margin-top: -1rem;
+        margin-top: -1em;
     }
 
     .iExpand{
@@ -330,17 +330,17 @@
     }
 
     .tStart{
-        right: 3rem;
+        right: 3em;
     }
 
     .tExpand{
         top: 7rem;
-        left: 2rem;
+        left: 2em;
     }
 
     .iExpand{
         margin-top: 2rem;
-        margin-left: 7rem;
+        margin-left: 7em;
     }
 
     .iActualy{
@@ -349,7 +349,7 @@
 
     .tActualy{
         margin-top: 0.2rem;
-        right: 3rem;
+        right: 3em;
     }
 
     .lastText{
@@ -367,7 +367,7 @@
     }
 
     .tStart{
-        top: 7.5rem;
+        top: 7.5em;
     }
 
     .iExpand{
@@ -375,11 +375,11 @@
     }
 
     .tExpand{
-        top: 11rem;
+        top: 11em;
     }
 
     .tActualy{
-        top: 5.5rem;
+        top: 5.5em;
     }
 
     .lastText{
