@@ -334,12 +334,12 @@
     }
 
     .tExpand{
-        top: 10rem;
+        top: 8rem;
         left: 2em;
     }
 
     .iExpand{
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         margin-left: 7em;
     }
 
@@ -353,7 +353,7 @@
 
     .lastText{
         font-size: 0.5rem;
-        margin-top: 0.7rem;
+        margin-top: 0.8rem;
         padding-left: 2em;
         padding-right: 3em;
     }
