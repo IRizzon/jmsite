@@ -40,7 +40,7 @@ function Home(){
                 pagination={{ clickable: true }}
                 navigation
                 autoplay={{
-                    delay: 3000,
+                    delay: 2000,
                     disableOnInteraction: false,
                 }}
                 speed={900}
