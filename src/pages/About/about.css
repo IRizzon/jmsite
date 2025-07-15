@@ -474,8 +474,8 @@
 
 .world{
     height: 100vh;
-    margin-left: -8em;
-    transform: translateY(5em);
+    margin-left: -12em;
+    transform: translateY(15em);
 }
 
 .placeContainer{
