@@ -103,7 +103,7 @@ function Home(){
                     </div>
                     <div className='circle'>
                         <img src={adubo} className='imgCircle' alt='Adubação'/>
-                        <h1 className='pDesc'>+10.00 Hectares por dia em Adubação</h1>
+                        <h1 className='pDesc'>+10.000 Hectares por dia em Adubação</h1>
                     </div>
                     <div className='circle'>
                         <img src={pulv} className='imgCircle' alt='Pulverização'/>
