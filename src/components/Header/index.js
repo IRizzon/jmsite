@@ -20,7 +20,7 @@ function Header(){
 
     return(
         <header className={isTransparent ? 'navbar transparent' : 'navbar'}>
-            <Link className={isTransparent ? 'logo transparent' : 'logo'} to="/"><img id='logojm' alt='logoJMPrecisão' src={logo}/></Link>
+            <Link className={isTransparent ? 'logo transparent' : 'logo'} to="/"><img id='logojm' alt='Logo JMPrecisão' src={logo}/></Link>
             <nav className={`${'headerNav'} ${ menuOpen ? 'showMenu' : '' }`}>
                 <Link className='link' to="/">Home</Link>
                 <Link className='link' to="/sobrenos">Sobre Nós</Link>

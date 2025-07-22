@@ -17,7 +17,7 @@ function Footer(){
                     <h2>Coromandel - MG</h2>
                 </div>
             </div>
-            <Link className='logo' to="/"><img id='logofjm' src={logofantasia} alt='JMPrecisão'/></Link>
+            <Link className='logo' to="/"><img id='logofjm' src={logofantasia} alt='Logo JMPrecisão'/></Link>
             <div className='social'>
                 <div>
                     <FaWhatsapp className='icon'/>

@@ -100,21 +100,21 @@ function About(){
                 </div>
                 <div className='VVMContainer'>
                     <div className='VVMCard'>
-                        <img src={jm1} className='VVMImg' alt='JMCar'/>
+                        <img src={jm1} className='VVMImg' alt='Carro JMPrecisão'/>
                         <div className='VVMText'>
                             <h1>Missão</h1>
                             <h2>Promover constantemente a melhoria na qualidade e no rendimento da produção agrícola.</h2>
                         </div>
                     </div>
                     <div className='VVMCard'>
-                        <img src={jm2} className='VVMImg' alt='JMCar'/>
+                        <img src={jm2} className='VVMImg' alt='Carro JMPrecisão'/>
                         <div className='VVMText'>
                             <h1>Visão</h1>
                             <h2>Ser reconhecida pela qualidade, confiança e agilidade, com simplicidade e respeito em tudo o que faz no campo.</h2>
                         </div>
                     </div>
                     <div className='VVMCard'>
-                        <img src={jm3} className='VVMImg' alt='JMCar'/>
+                        <img src={jm3} className='VVMImg' alt='Carro JMPrecisão'/>
                         <div className='VVMText'>
                             <h1>Valores</h1>
                             <h2>Ética, honestidade, agilidade, produtividade, qualidade, respeito e excelência.</h2>
@@ -124,7 +124,7 @@ function About(){
                 <div className='hEnding' id='hEnding'>
                     <img src={world} className='world' alt='Brasil'/>
                     <div className='placeContainer'>
-                        <img src={bglogo} className='bglogo'alt='JMPrecisão'/>
+                        <img src={bglogo} className='bglogo'alt='Logo JMPrecisão'/>
                         <div className='placeText'>
                             <h1>Atendendo em todo o Brasil</h1>
                             <text>

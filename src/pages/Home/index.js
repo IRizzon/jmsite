@@ -55,7 +55,7 @@ function Home(){
                     >
                         <img
                             src={item.image}
-                            alt='slider'
+                            alt='JM Precisao'
                             className='slide-content'
                         />
                     </SwiperSlide>
@@ -93,7 +93,7 @@ function Home(){
 
             <div className='pData'>
                 <div className='pTitle'>
-                    <img src={logo} className='logojm' alt='JMPrecisão'/>
+                    <img src={logo} className='logojm' alt='Logo JMPrecisão'/>
                     <h1>Alta Produtividade</h1>
                 </div>
                 <div className='circle-container'>
@@ -141,7 +141,7 @@ function Home(){
 
             <section className='cards'>
                 <div className='pin'>
-                    <img src={logo} className='pinLogo' alt='JMPrecisão'/>
+                    <img src={logo} className='pinLogo' alt='Logo JMPrecisão'/>
                 </div>
                 <div className='cardContainer'>
                     <img src={fleet2} className='fleetCard' alt='FrotaTrator'/>
@@ -161,7 +161,7 @@ function Home(){
 {/*Work Place */}
 
             <div className='workPlaceContain'>
-                <img src={logo} className='wpLogo' alt='JMPrecisão'/>
+                <img src={logo} className='wpLogo' alt='Logo JMPrecisão'/>
                 <div className='textContainer'>
                     <div className='wpContainer'>
                         <button className='wpButton' onClick={toLocal}>
@@ -182,7 +182,7 @@ function Home(){
                         Pará, Mato Grosso, Bahia, Piauí, Minas Gerais e Goiás.
                     </h3>
                 </div>
-                <img src={map} className='jmMap' alt='Brasil'/>
+                <img src={map} className='jmMap' alt='Mapa Brasil'/>
             </div>
 
 {/*Ending */}
