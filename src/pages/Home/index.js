@@ -6,6 +6,7 @@ import { FaCircleArrowRight } from 'react-icons/fa6';
 import { useNavigate } from 'react-router-dom';
 
 //Image Import
+import Base from '../../assets/image/slide/baseDay.jpeg'
 import Night from '../../assets/image/slide/night.svg';
 import Even from '../../assets/image/slide/evenight.svg';
 import Suply1 from '../../assets/image/slide/suply1.svg'; 
@@ -18,12 +19,14 @@ import truck from '../../assets/image/cards/truck.jpeg';
 import fleet1 from '../../assets/image/cards/frotaD.jpeg';
 import fleet2 from '../../assets/image/cards/frotaE.jpeg';
 import map from '../../assets/image/map.svg';
+import { image } from 'framer-motion/client';
 
 const slide = [
-    {id: '1', image:Suply1}, 
-    {id:'2', image:Suply2}, 
-    {id:'3', image:Even}, 
-    {id:'4', image:Night}
+    {id: '1', image:Base}, 
+    {id:'2', image:Suply1}, 
+    {id:'3', image:Suply2}, 
+    {id:'4', image:Even},
+    {id: '5', image:Night}
 ]
 
 function Home(){
@@ -67,9 +70,7 @@ function Home(){
                 <div className='comercial-slogan'>
                     <button className='btTalk' onClick={toForm}>
                         Fale Conosoco
-                        <FaCircleArrowRight
-                            style={{ color: '#7FBF50', fontSize: '50px'}}
-                        />
+                        <FaCircleArrowRight className='faAR1' />
                     </button>
                     <div className='slogan'>
                         <h1 className='title'>Agilidade</h1>
@@ -124,9 +125,7 @@ function Home(){
                             <h1 className='cSlogan'>Precisão em cada Hectare.</h1>
                             <button className='sellBt' onClick={toForm}>
                                 Comece Agora
-                                <FaCircleArrowRight
-                                    style={{ fontSize: '60px' }}
-                                />
+                                <FaCircleArrowRight className='faAR2'/>
                             </button>
                         </div>
                         <div className='machine'>
@@ -197,9 +196,7 @@ function Home(){
                     </h1>
                     <button className='eTalk' onClick={toForm}>
                         Fale Conosoco
-                        <FaCircleArrowRight
-                            style={{ color: '#7FBF50', fontSize: '50px'}}
-                        />
+                        <FaCircleArrowRight className='faAR3' />
                     </button>
                 </div>
             </div>

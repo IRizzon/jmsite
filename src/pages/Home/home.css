@@ -27,7 +27,7 @@ button{
 
 .slide-content {
   width: 100vw;
-  height: 70vh;
+  height: 50vh;
   object-fit: cover;
   display: block;
 }
@@ -45,7 +45,7 @@ button{
 
 @media (max-width: 500px) {
   .slide-content{
-    height: 40vh;
+    height: 35vh;
   }
   
 }
@@ -77,6 +77,11 @@ button{
   color: #EEFFE2;
   border-radius: 30px;
   border: none;
+}
+
+.faAR1{
+  color: #7FBF50;
+  font-size: 50px;
 }
 
 .slogan{
@@ -158,25 +163,31 @@ button{
 
 @media (max-width: 500px){
   .comercial-service{
-    width: 100%;
-    font-size: 1.2em;
-    padding: 1em;
-    border-radius: 40px;
+    top: -0.5em;
+    width: 90%;
+    font-size: 0.8em;
+    padding: 2em 1em;
   }
 
   .btService{
-    width: 90%;
+    font-size: 1.5em;
+    padding: 0.6em;
+    width: 80%;
   }
 
   .btTalk{
-    padding: 0.4em;
+    padding: 0.5em;
     margin-left: 5%;
     font-size: 1.5em;
     border-radius: 20px;
   }
 
+  .faAR1{
+    font-size: 30px;
+  }
+
   .slogan{
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 
@@ -266,21 +277,30 @@ button{
 
   @media (max-width:500px) {
 
+    .pData{
+      padding-bottom: 0;
+    }
+
     .logojm{
-      height: 50px;
+      height: 40px;
     }
 
 
     .pTitle{
-      font-size: 1em;
+      font-size: 0.8em;
     }
     
     .circle-container{
-      gap: 2rem;
+      gap: 1rem;
+    }
+
+    .circle{
+      width: 180px;
+      height: 180px;
     }
 
     .pDesc{
-      font-size: 1.6em;
+      font-size: 1.2em;
     }
   }
 
@@ -353,6 +373,10 @@ button{
   padding-left: 1em;
 }
 
+.faAR2{
+  font-size: 50px;
+}
+
 .machine{
   display: flex;
   align-items: flex-start;
@@ -423,11 +447,18 @@ button{
 }
 
 @media (max-width: 500px){
+
+  .cDesc{
+    padding: 1em 0;
+    margin-bottom: 1em;
+  }
+
   .dialog{
-    width: auto;
+    width: 100%;
     font-size: 1.3em;
     text-align: center;
     padding: 0.8em;
+    margin-top: 1rem;
   }
 
   .sellContainer{
@@ -435,14 +466,21 @@ button{
   }
 
   .cSlogan{
-    font-size: 2.5em;
+    margin-top: -1em;
+    font-size: 1.7em;
+    width: 80%;
     text-align: center;
   }
 
   .sellBt{
-    font-size: 1.8em;
+    width: 65%;
+    font-size: 1.5em;
     padding: 0.3em;
     padding-left: 0.5em;
+  }
+
+  .faAR2{
+    font-size: 30px;
   }
 }
 
@@ -534,12 +572,17 @@ button{
 
 @media (max-width:500px) {
 
+  .cards{
+    padding: 2em 1em;
+  }
+
   .fleetCard{
     height: 150px;
   }
   
   .textCard{
-    font-size: 0.6em;
+    padding: 1em;
+    font-size: 0.5em;
     height: 120px;
     letter-spacing: 1px;
   }
@@ -753,6 +796,11 @@ button{
   border: none;
 }
 
+.faAR3{
+  color: #7FBF50;
+  font-size: 50px;
+}
+
 @media (max-width: 800px) {
   
   .eCard{
@@ -762,15 +810,18 @@ button{
   }
 
   .eText{
-    width: 100%;
-    font-size: 1.5em;
+    width: 110%;
+    font-size: 1.4em;
     text-align: center;
   }
 
   .eTalk{
-    width: 90%;
-    font-size: 1.5em;
-    padding: 0.5em 0em;
-    gap: 0.3em;
+    font-size: 1.3em;
+    padding: 0.5em;
+    gap: 0.5em;
+  }
+
+  .faAR3{
+    font-size: 30px;
   }
 }
