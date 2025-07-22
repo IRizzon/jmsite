@@ -19,7 +19,6 @@ import truck from '../../assets/image/cards/truck.jpeg';
 import fleet1 from '../../assets/image/cards/frotaD.jpeg';
 import fleet2 from '../../assets/image/cards/frotaE.jpeg';
 import map from '../../assets/image/map.svg';
-import { image } from 'framer-motion/client';
 
 const slide = [
     {id: '1', image:Base}, 
