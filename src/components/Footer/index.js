@@ -40,7 +40,7 @@ function Footer(){
                     <h2>(34) 9 8807-4756</h2>
                 </Link>
                 <Link 
-                    to='httpe://https://www.instagram.com/jm.precisao/' 
+                    to='https://www.instagram.com/jm.precisao/' 
                     target='_blank'
                     className='social_Link'
                 >
